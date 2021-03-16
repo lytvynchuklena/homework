@@ -1,0 +1,89 @@
+
+.main {
+    display: flex;
+}
+.block1 {
+    padding: 10px;
+    width: 20%;
+    border-right: 1px solid #a2c4d9;
+    background: #f1f5f4;
+}
+.block1 > img {
+    padding: 20px;
+    margin: 10px;
+}
+.block1 > .text > li {
+    text-decoration: none;
+}
+.block1 > .text > p {
+    color: grey;
+    padding-left: 40px;
+}
+.block1 > .text > hr {
+    color: silver;
+    margin-left: 40px;
+    margin-top: -14px;
+    width: 50%;
+}
+.block2 {
+    padding: 30px;
+    width: 80%;
+    /*border: 1px solid grey;*/
+}
+.block2 > .content > h3 {
+    margin-left: 23px;
+}
+.text li {
+    margin-bottom: 10px;
+}
+.text li a {
+
+}
+
+.block3 {
+    width: 20%;
+    border: 1px solid grey;
+    background: #f1f5f4;
+    height: 800px;
+    margin-top: 110px;
+
+}
+span {
+    font-size: 13px;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+.block3 > a > img {
+    width: 90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block3 > h2 {
+    margin-top: 100px;
+    margin-left: 15px;
+    text-align: center;
+    background: #d2cfcf;
+}
+.block3 > p {
+    text-align: center;
+    margin-left: 15px;
+
+}
+.content {
+    border: 1px solid grey;
+    background: #f1f5f4;
+    width: 200px;
+
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
